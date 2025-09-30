@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt # For plotting grafs
 import numpy as np              # For array manipulation
-import pandas as pd             # For storing array as .cvs-file
+import pandas as pd             # For storing array as .csv-file
 
 def ClassifyPoints(points, k, m):
     """The function will classify the points an np-array, checking if the points are above/rigt of a line specified as k*x+m. Classification added in added third row"""
